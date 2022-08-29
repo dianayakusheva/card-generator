@@ -65,7 +65,9 @@
 }
 
 .form--button:hover {
-  
 box-shadow: 5px 7px 5px rgba(0,0,0,0.2);
+}
 
+.form--button:active {
+  transform: translateY(4px);
 }

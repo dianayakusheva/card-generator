@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Karla';
+  font-style: normal;
+
+}
+
+.header {
+  display:flex;
+  align-items: center;
+  height: 85px;
+  color: #FFFFFF;
+  padding:20px;
+  background:linear-gradient(90deg, rgba(188, 85, 103, 0.39) 1.18%, #D32679 100%);
+}
+
+.header--title{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  margin-right:auto;
+  font-size:2.25rem;
+}
+
+.header--quote{
+  font-family: 'Karla';
+  font-style: normal;
+  font-size: 1.25rem;
+  font-weight: 500;  
+}
